@@ -10,9 +10,11 @@ import org.springframework.stereotype.Component;
 import main.entities.Article;
 import main.entities.Comment;
 import main.entities.Forum;
+import main.entities.User;
+import main.security.Role;
 import main.service.interfaces.UserService;
-import main.utility.ForumCategory;
-import main.utility.NewArticleHelper;
+import main.utils.ForumCategory;
+import main.utils.NewArticleHelper;
 
 @Component
 public class OnStartup {
@@ -22,8 +24,15 @@ public class OnStartup {
 
 	public void start() {
 		System.err.println("SYSTEM STARTING");
-		System.err.println(adminS);
-		Forum f = adminS.createForum(new Forum("Basic Java", ForumCategory.JAVA, null));
+
+		User firstUser = new User("frozen", "123", "frozen@gmail.com", Role.User);
+		adminS.createUser(firstUser);
+		System.err.println(firstUser.getDetails());
+		System.out.println(firstUser);
+		User sameUser = adminS.getUser(firstUser.getId());
+		System.err.println(sameUser);
+		System.err.println(sameUser.getDetails());
+		Forum f = adminS.createForum(new Forum("Java Basic", ForumCategory.JAVA, null));
 		Forum f2 = adminS.createForum(new Forum("Basic Python", ForumCategory.PYTHON, null));
 		Forum f3 = adminS.createForum(new Forum("Spring", ForumCategory.JAVA, null));
 		Article a = adminS
@@ -50,5 +59,6 @@ public class OnStartup {
 		System.err.println(adminS.getCommentsByArticle(PageRequest.of(0, 5), a.getId()));
 		System.err.println(adminS.getCommentsByArticle(PageRequest.of(0, 5), a2.getId()));
 		System.err.println(adminS.getCommentsByArticle(PageRequest.of(0, 5), a3.getId()));
+
 	}
 }

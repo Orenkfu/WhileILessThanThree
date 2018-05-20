@@ -1,5 +1,6 @@
 package main.service;
 
+import java.util.Date;
 import java.util.List;
 
 import org.hibernate.Hibernate;
@@ -13,14 +14,17 @@ import org.springframework.transaction.annotation.Transactional;
 import main.dao.ArticleDao;
 import main.dao.CommentDao;
 import main.dao.ForumDao;
+import main.dao.UserDao;
 import main.entities.Article;
 import main.entities.Comment;
 import main.entities.Forum;
+import main.entities.User;
 import main.service.interfaces.UserService;
-import main.utility.ArticleFactory;
-import main.utility.ForumCategory;
-import main.utility.NewArticleHelper;
+import main.utils.ArticleFactory;
+import main.utils.ForumCategory;
+import main.utils.NewArticleHelper;
 
+//WILL BE SPLIT INTO SUBCLASSES
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -32,6 +36,9 @@ public class UserServiceImpl implements UserService {
 
 	@Autowired
 	ForumDao fDao;
+
+	@Autowired
+	UserDao uDao;
 
 	@Autowired
 	ArticleFactory artFactory;
@@ -91,5 +98,38 @@ public class UserServiceImpl implements UserService {
 		Hibernate.initialize(article.getComments());
 		return article;
 	}
+
+	@Override
+	@Transactional(readOnly= true)
+	public Forum getForum(Long id) {
+		return null;
+	}
+
+	@Override
+	@Transactional
+	public User createUser(User user) {
+		user.getDetails().setCreated(new Date());
+		uDao.saveAndFlush(user);
+		return user;
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public User getUser(Long id) {
+		System.out.println("get single user service reached");
+		return uDao.findUserById(id);
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public User login(String email, String password) {
+		User user = uDao.findByEmail(email);
+		if (password.equals(user.getHashed_password())) {
+			return user;
+		}
+		else throw new RuntimeException("wrong password :)");
+	}
+
+
 
 }

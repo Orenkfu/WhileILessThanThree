@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import main.utility.Postable;
+import main.utils.Postable;
 
 @Entity
 public class Comment implements Postable, Serializable {

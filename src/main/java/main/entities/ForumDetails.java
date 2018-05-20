@@ -17,26 +17,26 @@ public class ForumDetails implements Serializable {
 	private Long id;
 	private Date created;
 	private Long articleAmount;
-	private Forum owner;
+	private Forum forum;
 
 	public ForumDetails() {
 	}
 
 	public ForumDetails(Date created, Long articleAmount, Forum forum) {
 		super();
-		this.owner = forum;
+		this.forum = forum;
 		this.created = created;
 		this.articleAmount = articleAmount;
 	}
 
 	@MapsId("id")
 	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
-	public Forum getOwner() {
-		return owner;
+	public Forum getForum() {
+		return forum;
 	}
 
-	public void setOwner(Forum owner) {
-		this.owner = owner;
+	public void setForum(Forum owner) {
+		this.forum = owner;
 	}
 
 	@Id

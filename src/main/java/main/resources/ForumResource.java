@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import main.entities.Forum;
 import main.service.interfaces.UserService;
-import main.utility.ForumCategory;
-import main.utility.OrderBy;
+import main.utils.ForumCategory;
+import main.utils.OrderBy;
 
 @RestController
 @RequestMapping(path = "/forums")
@@ -25,8 +25,6 @@ public class ForumResource {
 			@RequestParam(defaultValue = "0", name = "page", value = "page", required = false) int page,
 			@RequestParam(defaultValue = "10", name = "size", value = "size", required = false) int size,
 			@RequestParam(name = "orderBy", required = false) OrderBy orderBy) {
-
-		System.out.println("Page size is : " + size);
 
 		return uService.getAllForums(PageRequest.of(page, size)).toArray(new Forum[0]);
 	}

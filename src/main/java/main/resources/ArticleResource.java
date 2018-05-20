@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import main.entities.Article;
 import main.service.interfaces.UserService;
-import main.utility.OrderBy;
+import main.utils.OrderBy;
 
 @RestController
 @RequestMapping(path = "/articles")

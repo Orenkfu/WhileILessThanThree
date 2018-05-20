@@ -7,7 +7,7 @@ import org.springframework.data.domain.Pageable;
 import main.entities.Article;
 import main.entities.Comment;
 import main.entities.Forum;
-import main.utility.ForumCategory;
+import main.utils.ForumCategory;
 
 public interface GuestService {
 

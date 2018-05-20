@@ -16,7 +16,7 @@ import javax.persistence.OneToMany;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
 
-import main.utility.ForumCategory;
+import main.utils.ForumCategory;
 
 @Entity
 public class Forum implements Serializable {
