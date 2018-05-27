@@ -1,41 +1,33 @@
 package main.security;
 
-import java.io.IOException;
-import java.util.Enumeration;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.springframework.http.HttpStatus;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
+import main.traffic.TrafficManager;
+
 @Component
 public class SessionManager implements HandlerInterceptor {
+
+	@Autowired
+	TrafficManager traffic;
+
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
-		System.err.println("================ HI ===  hello interceptor === HI ====================");
 		System.err.println(request.getMethod());
 		System.err.println(request.getRequestURI());
-		System.err.println(request.getRequestURL());
-		// boolean permission = getPermission(xHeader);
-		// if(permission) {
-		// return true;
-		// }
-		// else {
-		// response.setStatus(HttpStatus.UNAUTHORIZED.value());
-		// return false;
-		// Above code will send a 401 with no response body.
-		// If you need a 401 view, do a redirect instead of
-		// returning false.
-		// response.sendRedirect("#/"); // assuming you have a handler mapping for 401
-		// response.
+		// traffic.track(new Visitor(request.getRemoteAddr()));
+		// Enumeration<String> headerNames = request.getHeaderNames();
+		// while (headerNames.hasMoreElements()) {
+		// String headerName = headerNames.nextElement();
+		// System.out.println("key: " + headerName);
+		// System.out.println("value: " + request.getHeader(headerName));
 		return true;
-		//
-		// }
-		// return false;
 	}
 
 	@Override

@@ -21,10 +21,6 @@ public class NewArticleHelper {
 		this.userId = userId;
 	}
 
-	public Long getForumId() {
-		return forumId;
-	}
-
 	public void setForumId(Long forumId) {
 		this.forumId = forumId;
 	}

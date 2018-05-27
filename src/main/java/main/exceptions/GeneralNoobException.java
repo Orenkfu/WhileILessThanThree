@@ -24,4 +24,8 @@ public class GeneralNoobException extends Exception {
 		super(msg.getValue());
 	}
 
+	public GeneralNoobException(ExcMsg msg, Throwable cause) {
+		super(msg.getValue(), cause);
+	}
+
 }

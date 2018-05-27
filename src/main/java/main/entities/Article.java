@@ -2,18 +2,22 @@ package main.entities;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.Basic;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -24,8 +28,11 @@ public class Article implements Serializable {
 	private static final long serialVersionUID = 6893319828705828684L;
 	private Long id;
 	private String subject;
+	private User user;
+	private String body;
 	private List<Comment> comments;
 	private Long forumId;
+	private Date posted;
 
 	@Basic
 	public Long getForumId() {
@@ -40,15 +47,18 @@ public class Article implements Serializable {
 		this.comments = new ArrayList<Comment>();
 	}
 
-	public Article(String title, Long forumId) {
+	public Article(String title, Long forumId, User user, String body) {
 		super();
 		this.comments = new ArrayList<Comment>();
 		this.forumId = forumId;
 		this.subject = title;
+		this.user = user;
+		this.body = body;
 	}
 
-	@OneToMany(targetEntity = Comment.class, fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@OneToMany(targetEntity = Comment.class, cascade = CascadeType.ALL)
 	@JoinTable(name = "article_comments", joinColumns = @JoinColumn(name = "article_id"), inverseJoinColumns = @JoinColumn(name = "comment_id"))
+	@LazyCollection(LazyCollectionOption.FALSE)
 	public List<Comment> getComments() {
 		return comments;
 	}
@@ -86,9 +96,36 @@ public class Article implements Serializable {
 		this.comments.remove(c);
 	}
 
+	@ManyToOne(cascade = CascadeType.REFRESH)
+	@JoinColumn
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public String getBody() {
+		return body;
+	}
+
+	public void setBody(String body) {
+		this.body = body;
+	}
+
+	public Date getPosted() {
+		return posted;
+	}
+
+	public void setPosted(Date posted) {
+		this.posted = posted;
+	}
+
 	@Override
 	public String toString() {
-		return "Article [id=" + id + ", subject=" + subject + ", comments=" + comments + ", forumId=" + forumId + "]";
+		return "Article [id=" + id + ", subject=" + subject + ", user=" + user.getId() + ", body=" + body
+				+ ", comments=" + comments + ", forumId=" + forumId + "]";
 	}
 
 }

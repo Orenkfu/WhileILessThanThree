@@ -1,7 +1,7 @@
 package main.exceptions;
 
 public enum ExcMsg {
-	GENERAL, UNAUTHORIZED, UNVERIFIED, BADINPUT;
+	GENERAL, UNAUTHORIZED, UNVERIFIED, BADINPUT, WRONGPASS, CNOTFOUND, FNOTFOUND, ANOTFOUND, UNOTFOUND, UNAUTHENTICATED;
 
 	public String getValue() {
 
@@ -14,8 +14,20 @@ public enum ExcMsg {
 			return "User is not verified.";
 		case BADINPUT:
 			return "Bad Input.";
+		case WRONGPASS:
+			return "Password is incorrect.";
+		case CNOTFOUND:
+			return "Could not find comment.";
+		case FNOTFOUND:
+			return "Could not find forum.";
+		case ANOTFOUND:
+			return "Could not find article.";
+		case UNOTFOUND:
+			return "Could not find user.";
+		case UNAUTHENTICATED:
+			return "User is not logged in.";
 		default:
-			return null;
+			return "User is not verified.";
 		}
 	}
 

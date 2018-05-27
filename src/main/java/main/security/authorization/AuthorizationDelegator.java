@@ -1,7 +1,6 @@
 package main.security.authorization;
 
 import main.exceptions.UnauthorizedNoobException;
-import main.security.ForumAuthorization;
 import main.security.Role;
 
 public class AuthorizationDelegator {

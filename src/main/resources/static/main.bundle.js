@@ -1,5 +1,274 @@
 webpackJsonp(["main"],{
 
+/***/ "./node_modules/moment/locale recursive ^\\.\\/.*$":
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./src/$$_lazy_route_resource lazy recursive":
 /***/ (function(module, exports) {
 
@@ -104,7 +373,7 @@ module.exports = ".first{\r\n    margin-bottom: 20px;\r\n    padding-bottom: 20p
 /***/ "./src/app/Article_Page/comment-list/comment-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<ul class=\"list-group\">\n  <li *ngFor=\"let comment of comments; first as f\" class=\"list-group-item\" [class.first]=\"f\">\n    <div>\n      {{comment.body}}, {{comment.authorId}}\n    </div>\n  </li>\n</ul>"
+module.exports = "<ul class=\"list-group\">\n  <li *ngFor=\"let comment of comments; first as f\" class=\"list-group-item\">\n    <div>\n      {{comment.body}}, {{comment.authorId}}\n    </div>\n  </li>\n</ul>\n<!--\n   [class.first]=\"f\"\n-->"
 
 /***/ }),
 
@@ -175,14 +444,14 @@ var CommentListComponent = /** @class */ (function () {
 /***/ "./src/app/Article_Page/forum-article/forum-article.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".forumArticle {\r\n    border: black solid;\r\n    padding: 30px;\r\n    border-width: 1px;\r\n}\r\n"
+module.exports = ".forumArticle {\r\n    border: black solid;\r\n    padding: 30px;\r\n    border-width: 1px;\r\n}\r\n.topic {\r\nborder-bottom: black solid;\r\nmargin-bottom: 30px;\r\n\r\n}"
 
 /***/ }),
 
 /***/ "./src/app/Article_Page/forum-article/forum-article.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"article\" class=\"forumArticle container\">\n  <h1>\n    {{article.subject}}\n  </h1>\n  <comment-list [newComment]=\"newComment\" [id]=\"id\"></comment-list>\n  <comment-form (commentAdded)=\"newCommentHandler($event)\" [articleId]=\"article.id\"></comment-form>\n</div>"
+module.exports = "<div *ngIf=\"article\" class=\"forumArticle container\">\n  <div id=\"topic\" class=\"topic\">\n    <h1>\n      {{article.subject}}\n    </h1>\n    <h2>\n      {{articleBody}}\n    </h2>\n  </div>\n  <comment-list [newComment]=\"newComment\" [id]=\"id\"></comment-list>\n  <comment-form (commentAdded)=\"newCommentHandler($event)\" [articleId]=\"article.id\"></comment-form>\n</div>"
 
 /***/ }),
 
@@ -220,10 +489,11 @@ var ForumArticleComponent = /** @class */ (function () {
     };
     ForumArticleComponent.prototype.ngOnInit = function () {
         var _this = this;
+        console.log("activated forum article initialization..");
         this.id = +this.route.snapshot.paramMap.get('id');
         this.articleService.get(this.id).subscribe(function (r) {
             _this.article = r;
-            _this.articleBody = _this.article.comments[0];
+            _this.articleBody = _this.article.body;
         });
     };
     __decorate([
@@ -297,6 +567,177 @@ var BlogPortalComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/Reusable/zippy/zippy.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/Reusable/zippy/zippy.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"zippy\">\n  <div [class.expanded]=\"isExpanded\" (click)=\"isExpanded=!isExpanded\" class=\"zippy-heading\">\n    {{title}}\n    <span class=\"glyphicon\" [ngClass]=\"{\n    'glyphicon-chevron-up ' :  isExpanded,\n    ' glyphicon-chevron-down' : !isExpanded\n   }\"></span>\n  </div>\n  <div *ngIf=\"isExpanded\" class=\"zippy-body\">\n    <ng-content></ng-content>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/Reusable/zippy/zippy.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ZippyComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ZippyComponent = /** @class */ (function () {
+    function ZippyComponent() {
+    }
+    ZippyComponent.prototype.ngOnInit = function () {
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('title'),
+        __metadata("design:type", String)
+    ], ZippyComponent.prototype, "title", void 0);
+    ZippyComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'zippy',
+            template: __webpack_require__("./src/app/Reusable/zippy/zippy.component.html"),
+            styles: [__webpack_require__("./src/app/Reusable/zippy/zippy.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ZippyComponent);
+    return ZippyComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/User-Area/my-comments/my-comments.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/User-Area/my-comments/my-comments.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<ul class=\"list-group\">\n  <li class=\"list-group-item flex-column\" *ngFor=\"let c of comments; index as i\">\n    <h5 class=\"mb-1 d-flex justify-content-start\"> {{c.id}} </h5>\n\n    <small class=\"float-right d-flex justify-content-end\">{{c.posted | dateDisplay}}</small>\n    <div class=\"d-flex w-100 justify-content-start\">\n      {{c.body}}, {{c.authorId}}, {{c.articleId}}\n    </div>\n  </li>\n</ul>"
+
+/***/ }),
+
+/***/ "./src/app/User-Area/my-comments/my-comments.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyCommentsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_comment_service__ = __webpack_require__("./src/app/services/comment.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var MyCommentsComponent = /** @class */ (function () {
+    function MyCommentsComponent(cService, route) {
+        this.cService = cService;
+        this.route = route;
+    }
+    MyCommentsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.id = +this.route.snapshot.paramMap.get('id');
+        this.cService.getByUser(this.id)
+            .subscribe(function (comments) {
+            for (var _i = 0, comments_1 = comments; _i < comments_1.length; _i++) {
+                var comment = comments_1[_i];
+                comment.posted = new Date(comment.posted);
+                console.log(comment.posted);
+            }
+            _this.comments = comments;
+        });
+    };
+    MyCommentsComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["n" /* Component */])({
+            selector: 'app-my-comments',
+            template: __webpack_require__("./src/app/User-Area/my-comments/my-comments.component.html"),
+            styles: [__webpack_require__("./src/app/User-Area/my-comments/my-comments.component.css")]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_comment_service__["a" /* CommentService */], __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* ActivatedRoute */]])
+    ], MyCommentsComponent);
+    return MyCommentsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/User-Area/my-profile/my-profile.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/User-Area/my-profile/my-profile.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  my-profile works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/User-Area/my-profile/my-profile.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyProfileComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MyProfileComponent = /** @class */ (function () {
+    function MyProfileComponent() {
+    }
+    MyProfileComponent.prototype.ngOnInit = function () {
+    };
+    MyProfileComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-my-profile',
+            template: __webpack_require__("./src/app/User-Area/my-profile/my-profile.component.html"),
+            styles: [__webpack_require__("./src/app/User-Area/my-profile/my-profile.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], MyProfileComponent);
+    return MyProfileComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/about-us/about-us.component.css":
 /***/ (function(module, exports) {
 
@@ -341,6 +782,82 @@ var AboutUsComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], AboutUsComponent);
     return AboutUsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/app-router/app-router.module.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRouterModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__article_form_article_form_component__ = __webpack_require__("./src/app/article-form/article-form.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_us_about_us_component__ = __webpack_require__("./src/app/about-us/about-us.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__moderator_manage_users_manage_users_component__ = __webpack_require__("./src/app/moderator/manage-users/manage-users.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Blog_Section_blog_portal_blog_portal_component__ = __webpack_require__("./src/app/Blog_Section/blog-portal/blog-portal.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__login_redirect_login_redirect_component__ = __webpack_require__("./src/app/login-redirect/login-redirect.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__login_login_component__ = __webpack_require__("./src/app/login/login.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__User_Area_my_comments_my_comments_component__ = __webpack_require__("./src/app/User-Area/my-comments/my-comments.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__forum_forum_component__ = __webpack_require__("./src/app/forum/forum.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__User_Area_my_profile_my_profile_component__ = __webpack_require__("./src/app/User-Area/my-profile/my-profile.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Article_Page_forum_article_forum_article_component__ = __webpack_require__("./src/app/Article_Page/forum-article/forum-article.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__forums_portal_forums_portal_component__ = __webpack_require__("./src/app/forums-portal/forums-portal.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__home_home_component__ = __webpack_require__("./src/app/home/home.component.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var routes = [
+    { path: "about", component: __WEBPACK_IMPORTED_MODULE_4__about_us_about_us_component__["a" /* AboutUsComponent */] },
+    { path: "moderator", component: __WEBPACK_IMPORTED_MODULE_5__moderator_manage_users_manage_users_component__["a" /* ManageUsersComponent */] },
+    { path: "blogs", component: __WEBPACK_IMPORTED_MODULE_6__Blog_Section_blog_portal_blog_portal_component__["a" /* BlogPortalComponent */] },
+    { path: "article/post/:id", component: __WEBPACK_IMPORTED_MODULE_0__article_form_article_form_component__["a" /* ArticleFormComponent */] },
+    { path: "articles/:id", component: __WEBPACK_IMPORTED_MODULE_12__Article_Page_forum_article_forum_article_component__["a" /* ForumArticleComponent */] },
+    { path: "login/success/:id", component: __WEBPACK_IMPORTED_MODULE_7__login_redirect_login_redirect_component__["a" /* LoginRedirectComponent */] },
+    { path: "login", component: __WEBPACK_IMPORTED_MODULE_8__login_login_component__["a" /* LoginComponent */] },
+    { path: "my/comments/:id", component: __WEBPACK_IMPORTED_MODULE_9__User_Area_my_comments_my_comments_component__["a" /* MyCommentsComponent */] },
+    { path: "my/profile", component: __WEBPACK_IMPORTED_MODULE_11__User_Area_my_profile_my_profile_component__["a" /* MyProfileComponent */] },
+    { path: "forums/:id", component: __WEBPACK_IMPORTED_MODULE_10__forum_forum_component__["a" /* ForumComponent */] },
+    { path: "forums", component: __WEBPACK_IMPORTED_MODULE_13__forums_portal_forums_portal_component__["a" /* ForumsPortalComponent */] },
+    { path: "", component: __WEBPACK_IMPORTED_MODULE_14__home_home_component__["a" /* HomeComponent */] }
+];
+var AppRouterModule = /** @class */ (function () {
+    function AppRouterModule() {
+    }
+    AppRouterModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["J" /* NgModule */])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_2__angular_common__["b" /* CommonModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* RouterModule */].forRoot(routes)
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* RouterModule */]
+            ],
+        })
+    ], AppRouterModule);
+    return AppRouterModule;
 }());
 
 
@@ -417,36 +934,43 @@ var AppComponent = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_storage_service__ = __webpack_require__("./src/app/services/storage.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_user_service__ = __webpack_require__("./src/app/services/user.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pipes_title_case_pipe__ = __webpack_require__("./src/app/pipes/title-case.pipe.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_article_service__ = __webpack_require__("./src/app/services/article.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__forum_forum_component__ = __webpack_require__("./src/app/forum/forum.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_us_about_us_component__ = __webpack_require__("./src/app/about-us/about-us.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_material_input__ = __webpack_require__("./node_modules/@angular/material/esm5/input.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__bs_navbar_bs_navbar_component__ = __webpack_require__("./src/app/bs-navbar/bs-navbar.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__home_home_component__ = __webpack_require__("./src/app/home/home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__forums_portal_forums_portal_component__ = __webpack_require__("./src/app/forums-portal/forums-portal.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_forum_service__ = __webpack_require__("./src/app/services/forum.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__forum_list_forum_list_component__ = __webpack_require__("./src/app/forum-list/forum-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__forum_categories_forum_categories_component__ = __webpack_require__("./src/app/forum-categories/forum-categories.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__zippy_zippy_component__ = __webpack_require__("./src/app/zippy/zippy.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__Article_Page_forum_article_forum_article_component__ = __webpack_require__("./src/app/Article_Page/forum-article/forum-article.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Article_Page_comment_list_comment_list_component__ = __webpack_require__("./src/app/Article_Page/comment-list/comment-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_comment_service__ = __webpack_require__("./src/app/services/comment.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__login_login_component__ = __webpack_require__("./src/app/login/login.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ng_bootstrap_ng_bootstrap__ = __webpack_require__("./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__Article_Page_comment_form_comment_form_component__ = __webpack_require__("./src/app/Article_Page/comment-form/comment-form.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__login_redirect_login_redirect_component__ = __webpack_require__("./src/app/login-redirect/login-redirect.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__Blog_Section_blog_portal_blog_portal_component__ = __webpack_require__("./src/app/Blog_Section/blog-portal/blog-portal.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_router_app_router_module__ = __webpack_require__("./src/app/app-router/app-router.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_interceptor_service__ = __webpack_require__("./src/app/auth-interceptor.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_storage_service__ = __webpack_require__("./src/app/services/storage.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_user_service__ = __webpack_require__("./src/app/services/user.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_title_case_pipe__ = __webpack_require__("./src/app/pipes/title-case.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_article_service__ = __webpack_require__("./src/app/services/article.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__forum_forum_component__ = __webpack_require__("./src/app/forum/forum.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_us_about_us_component__ = __webpack_require__("./src/app/about-us/about-us.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_material_input__ = __webpack_require__("./node_modules/@angular/material/esm5/input.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__app_component__ = __webpack_require__("./src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bs_navbar_bs_navbar_component__ = __webpack_require__("./src/app/bs-navbar/bs-navbar.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__home_home_component__ = __webpack_require__("./src/app/home/home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__forums_portal_forums_portal_component__ = __webpack_require__("./src/app/forums-portal/forums-portal.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_forum_service__ = __webpack_require__("./src/app/services/forum.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__forum_list_forum_list_component__ = __webpack_require__("./src/app/forum-list/forum-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__forum_categories_forum_categories_component__ = __webpack_require__("./src/app/forum-categories/forum-categories.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__Reusable_zippy_zippy_component__ = __webpack_require__("./src/app/Reusable/zippy/zippy.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Article_Page_forum_article_forum_article_component__ = __webpack_require__("./src/app/Article_Page/forum-article/forum-article.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__Article_Page_comment_list_comment_list_component__ = __webpack_require__("./src/app/Article_Page/comment-list/comment-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_comment_service__ = __webpack_require__("./src/app/services/comment.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__login_login_component__ = __webpack_require__("./src/app/login/login.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ng_bootstrap_ng_bootstrap__ = __webpack_require__("./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__Article_Page_comment_form_comment_form_component__ = __webpack_require__("./src/app/Article_Page/comment-form/comment-form.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__login_redirect_login_redirect_component__ = __webpack_require__("./src/app/login-redirect/login-redirect.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__Blog_Section_blog_portal_blog_portal_component__ = __webpack_require__("./src/app/Blog_Section/blog-portal/blog-portal.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__User_Area_my_comments_my_comments_component__ = __webpack_require__("./src/app/User-Area/my-comments/my-comments.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__User_Area_my_profile_my_profile_component__ = __webpack_require__("./src/app/User-Area/my-profile/my-profile.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__moderator_manage_users_manage_users_component__ = __webpack_require__("./src/app/moderator/manage-users/manage-users.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pipes_date_display_pipe__ = __webpack_require__("./src/app/pipes/date-display.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pipes_summary_pipe__ = __webpack_require__("./src/app/pipes/summary.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__article_form_article_form_component__ = __webpack_require__("./src/app/article-form/article-form.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -483,58 +1007,179 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var routes = [
-    { path: "about", component: __WEBPACK_IMPORTED_MODULE_6__about_us_about_us_component__["a" /* AboutUsComponent */] },
-    { path: "blogs", component: __WEBPACK_IMPORTED_MODULE_29__Blog_Section_blog_portal_blog_portal_component__["a" /* BlogPortalComponent */] },
-    { path: "login/success/:id", component: __WEBPACK_IMPORTED_MODULE_28__login_redirect_login_redirect_component__["a" /* LoginRedirectComponent */] },
-    { path: "login", component: __WEBPACK_IMPORTED_MODULE_24__login_login_component__["a" /* LoginComponent */] },
-    { path: "forums/:id", component: __WEBPACK_IMPORTED_MODULE_5__forum_forum_component__["a" /* ForumComponent */] },
-    { path: "article/:id", component: __WEBPACK_IMPORTED_MODULE_21__Article_Page_forum_article_forum_article_component__["a" /* ForumArticleComponent */] },
-    { path: "forums", component: __WEBPACK_IMPORTED_MODULE_16__forums_portal_forums_portal_component__["a" /* ForumsPortalComponent */] },
-    { path: "", component: __WEBPACK_IMPORTED_MODULE_15__home_home_component__["a" /* HomeComponent */] }
-];
+
+
+
+
+
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_8__angular_core__["J" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_10__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_12__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_14__bs_navbar_bs_navbar_component__["a" /* BsNavbarComponent */],
-                __WEBPACK_IMPORTED_MODULE_15__home_home_component__["a" /* HomeComponent */],
-                __WEBPACK_IMPORTED_MODULE_6__about_us_about_us_component__["a" /* AboutUsComponent */],
-                __WEBPACK_IMPORTED_MODULE_5__forum_forum_component__["a" /* ForumComponent */],
-                __WEBPACK_IMPORTED_MODULE_16__forums_portal_forums_portal_component__["a" /* ForumsPortalComponent */],
-                __WEBPACK_IMPORTED_MODULE_18__forum_list_forum_list_component__["a" /* ForumListComponent */],
-                __WEBPACK_IMPORTED_MODULE_3__pipes_title_case_pipe__["a" /* TitleCasePipe */],
-                __WEBPACK_IMPORTED_MODULE_19__forum_categories_forum_categories_component__["a" /* ForumCategoriesComponent */],
-                __WEBPACK_IMPORTED_MODULE_20__zippy_zippy_component__["a" /* ZippyComponent */],
-                __WEBPACK_IMPORTED_MODULE_21__Article_Page_forum_article_forum_article_component__["a" /* ForumArticleComponent */],
-                __WEBPACK_IMPORTED_MODULE_22__Article_Page_comment_list_comment_list_component__["a" /* CommentListComponent */],
-                __WEBPACK_IMPORTED_MODULE_24__login_login_component__["a" /* LoginComponent */],
-                __WEBPACK_IMPORTED_MODULE_27__Article_Page_comment_form_comment_form_component__["a" /* CommentFormComponent */],
-                __WEBPACK_IMPORTED_MODULE_28__login_redirect_login_redirect_component__["a" /* LoginRedirectComponent */],
-                __WEBPACK_IMPORTED_MODULE_29__Blog_Section_blog_portal_blog_portal_component__["a" /* BlogPortalComponent */]
+                __WEBPACK_IMPORTED_MODULE_13__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_15__bs_navbar_bs_navbar_component__["a" /* BsNavbarComponent */],
+                __WEBPACK_IMPORTED_MODULE_16__home_home_component__["a" /* HomeComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__about_us_about_us_component__["a" /* AboutUsComponent */],
+                __WEBPACK_IMPORTED_MODULE_7__forum_forum_component__["a" /* ForumComponent */],
+                __WEBPACK_IMPORTED_MODULE_17__forums_portal_forums_portal_component__["a" /* ForumsPortalComponent */],
+                __WEBPACK_IMPORTED_MODULE_19__forum_list_forum_list_component__["a" /* ForumListComponent */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_title_case_pipe__["a" /* TitleCasePipe */],
+                __WEBPACK_IMPORTED_MODULE_20__forum_categories_forum_categories_component__["a" /* ForumCategoriesComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__Reusable_zippy_zippy_component__["a" /* ZippyComponent */],
+                __WEBPACK_IMPORTED_MODULE_22__Article_Page_forum_article_forum_article_component__["a" /* ForumArticleComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__Article_Page_comment_list_comment_list_component__["a" /* CommentListComponent */],
+                __WEBPACK_IMPORTED_MODULE_25__login_login_component__["a" /* LoginComponent */],
+                __WEBPACK_IMPORTED_MODULE_28__Article_Page_comment_form_comment_form_component__["a" /* CommentFormComponent */],
+                __WEBPACK_IMPORTED_MODULE_29__login_redirect_login_redirect_component__["a" /* LoginRedirectComponent */],
+                __WEBPACK_IMPORTED_MODULE_30__Blog_Section_blog_portal_blog_portal_component__["a" /* BlogPortalComponent */],
+                __WEBPACK_IMPORTED_MODULE_31__User_Area_my_comments_my_comments_component__["a" /* MyCommentsComponent */],
+                __WEBPACK_IMPORTED_MODULE_32__User_Area_my_profile_my_profile_component__["a" /* MyProfileComponent */],
+                __WEBPACK_IMPORTED_MODULE_33__moderator_manage_users_manage_users_component__["a" /* ManageUsersComponent */],
+                __WEBPACK_IMPORTED_MODULE_34__pipes_date_display_pipe__["a" /* DateDisplayPipe */],
+                __WEBPACK_IMPORTED_MODULE_35__pipes_summary_pipe__["a" /* SummaryPipe */],
+                __WEBPACK_IMPORTED_MODULE_36__article_form_article_form_component__["a" /* ArticleFormComponent */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_10__angular_common_http__["b" /* HttpClientModule */],
-                __WEBPACK_IMPORTED_MODULE_26__angular_forms__["b" /* FormsModule */],
-                __WEBPACK_IMPORTED_MODULE_11__angular_material_input__["a" /* MatInputModule */],
-                __WEBPACK_IMPORTED_MODULE_25__ng_bootstrap_ng_bootstrap__["a" /* NgbModule */],
-                __WEBPACK_IMPORTED_MODULE_25__ng_bootstrap_ng_bootstrap__["a" /* NgbModule */].forRoot(),
-                __WEBPACK_IMPORTED_MODULE_9__angular_router__["c" /* RouterModule */].forRoot(routes)
+                __WEBPACK_IMPORTED_MODULE_9__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_11__angular_common_http__["c" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_27__angular_forms__["b" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_12__angular_material_input__["a" /* MatInputModule */],
+                __WEBPACK_IMPORTED_MODULE_26__ng_bootstrap_ng_bootstrap__["a" /* NgbModule */],
+                __WEBPACK_IMPORTED_MODULE_26__ng_bootstrap_ng_bootstrap__["a" /* NgbModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_0__app_router_app_router_module__["a" /* AppRouterModule */],
             ],
             providers: [
-                { provide: __WEBPACK_IMPORTED_MODULE_13__angular_common__["i" /* LocationStrategy */], useClass: __WEBPACK_IMPORTED_MODULE_13__angular_common__["f" /* HashLocationStrategy */] },
-                __WEBPACK_IMPORTED_MODULE_4__services_article_service__["a" /* ArticleService */], __WEBPACK_IMPORTED_MODULE_17__services_forum_service__["a" /* ForumService */],
-                __WEBPACK_IMPORTED_MODULE_23__services_comment_service__["a" /* CommentService */], __WEBPACK_IMPORTED_MODULE_2__services_user_service__["a" /* UserService */],
-                __WEBPACK_IMPORTED_MODULE_1__services_storage_service__["a" /* StorageService */], __WEBPACK_IMPORTED_MODULE_0__services_auth_service__["a" /* AuthService */]
+                {
+                    provide: __WEBPACK_IMPORTED_MODULE_14__angular_common__["i" /* LocationStrategy */],
+                    useClass: __WEBPACK_IMPORTED_MODULE_14__angular_common__["f" /* HashLocationStrategy */]
+                },
+                {
+                    provide: __WEBPACK_IMPORTED_MODULE_11__angular_common_http__["a" /* HTTP_INTERCEPTORS */],
+                    useClass: __WEBPACK_IMPORTED_MODULE_1__auth_interceptor_service__["a" /* AuthInterceptor */], multi: true
+                },
+                __WEBPACK_IMPORTED_MODULE_6__services_article_service__["a" /* ArticleService */], __WEBPACK_IMPORTED_MODULE_18__services_forum_service__["a" /* ForumService */],
+                __WEBPACK_IMPORTED_MODULE_24__services_comment_service__["a" /* CommentService */], __WEBPACK_IMPORTED_MODULE_4__services_user_service__["a" /* UserService */],
+                __WEBPACK_IMPORTED_MODULE_3__services_storage_service__["a" /* StorageService */], __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* AuthService */]
             ],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_12__app_component__["a" /* AppComponent */]]
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_13__app_component__["a" /* AppComponent */]]
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/article-form/article-form.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/article-form/article-form.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  article-form works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/article-form/article-form.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArticleFormComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__services_forum_service__ = __webpack_require__("./src/app/services/forum.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ArticleFormComponent = /** @class */ (function () {
+    function ArticleFormComponent(route, forumService) {
+        this.route = route;
+        this.forumService = forumService;
+    }
+    ArticleFormComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.id = +this.route.snapshot.paramMap.get('id');
+        console.log(this.id);
+        this.forumService.get(this.id).subscribe(function (forum) {
+            console.log(forum);
+            _this.forum = forum;
+        });
+    };
+    ArticleFormComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["n" /* Component */])({
+            selector: 'app-article-form',
+            template: __webpack_require__("./src/app/article-form/article-form.component.html"),
+            styles: [__webpack_require__("./src/app/article-form/article-form.component.css")]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_0__services_forum_service__["a" /* ForumService */]])
+    ], ArticleFormComponent);
+    return ArticleFormComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/auth-interceptor.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthInterceptor; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_storage_service__ = __webpack_require__("./src/app/services/storage.service.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var AuthInterceptor = /** @class */ (function () {
+    function AuthInterceptor(storage) {
+        this.storage = storage;
+    }
+    AuthInterceptor.prototype.intercept = function (req, next) {
+        var user = this.storage.getUser();
+        if (user) {
+            var xhr = req.clone({
+                headers: req.headers.set('authenticated', 'true')
+            });
+            return next.handle(xhr);
+        }
+        else {
+            var xhr = req.clone({
+                headers: req.headers.set('authenticated', 'false')
+            });
+            return next.handle(xhr);
+        }
+    };
+    AuthInterceptor = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_storage_service__["a" /* StorageService */]])
+    ], AuthInterceptor);
+    return AuthInterceptor;
 }());
 
 
@@ -551,7 +1196,7 @@ module.exports = ""
 /***/ "./src/app/bs-navbar/bs-navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-md navbar-dark bg-dark fixed-top\">\n  <a class=\"navbar-brand\" routerLink='/'>Home</a>\n\n\n  <div class=\"collapse navbar-collapse\" id=\"bsnavbar\">\n    <ul class=\"navbar-nav mr-auto\">\n\n      <li class=\"nav-item\">\n        <a class=\"nav-link pointer\" routerLink=\"/forums\">Forums</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link pointer\" routerLink=\"/blogs\">Blogs</a>\n      </li>\n      <li *ngIf=\"!user\" class=\"nav-item\">\n        <a class=\"nav-link pointer\" routerLink=\"/login\">Log In</a>\n      </li>\n      <li *ngIf=\"user; else anonymousUser\" ngbDropdown class=\"nav-item dropdown\">\n        <a ngbDropdownToggle class=\"nav-link dropdown-toggle pointer\" id=\"dropdown01\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\n          aria-expanded=\"false\">{{ user.username }}</a>\n        <div ngbDropdownMenu class=\"dropdown-menu\" aria-labelledby=\"dropdown01\">\n          <a class=\"dropdown-item\" routerLink=\"/my/posts\">My Posts</a>\n          <a class=\"dropdown-item\" routerLink=\"/my/profile\">Profile</a>\n          <a class=\"dropdown-item\" routerLink=\"/my/settings\">Privacy Settings</a>\n          <ng-container *ngIf=\"user.role === admin\">\n            <a class=\"dropdown-item\" routerLink=\"/my/settings\">Manage Users</a>\n          </ng-container>\n          <a class=\"dropdown-item\" (click)=\"logout()\">Log Out</a>\n        </div>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link pointer\" routerLink=\"/about\">About Us</a>\n      </li>\n    </ul>\n  </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-expand-md navbar-dark bg-dark fixed-top\">\n  <a class=\"navbar-brand\" routerLink='/'>Home</a>\n\n\n  <div class=\"collapse navbar-collapse\" id=\"bsnavbar\">\n    <ul class=\"navbar-nav mr-auto\">\n\n      <li class=\"nav-item\">\n        <a class=\"nav-link pointer\" routerLink=\"/forums\">Forums</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link pointer\" routerLink=\"/moderator\">Manage Users</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link pointer\" routerLink=\"/blogs\">Blogs</a>\n      </li>\n      <li *ngIf=\"user; else anonymousUser\" ngbDropdown class=\"nav-item dropdown\">\n        <a ngbDropdownToggle class=\"nav-link dropdown-toggle pointer\" id=\"dropdown01\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\n          aria-expanded=\"false\">{{ user.username }}</a>\n        <div ngbDropdownMenu class=\"dropdown-menu\" aria-labelledby=\"dropdown01\">\n          <a class=\"dropdown-item\" [routerLink]=\"['/my/comments', user.id]\">My Posts</a>\n          <a class=\"dropdown-item\" routerLink=\"/my/profile\">Profile</a>\n          <a class=\"dropdown-item\" routerLink=\"/my/settings\">Privacy Settings</a>\n          <ng-container *ngIf=\"user.role == admin\">\n            <a class=\"dropdown-item\" routerLink=\"/my/settings\">Manage Users</a>\n          </ng-container>\n          <a class=\"dropdown-item\" (click)=\"logout()\">Log Out</a>\n        </div>\n      </li>\n      <li *ngIf=\"!user\" class=\"nav-item\">\n        <a class=\"nav-link pointer\" routerLink=\"/login\">Log In</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link pointer\" routerLink=\"/about\">About Us</a>\n      </li>\n    </ul>\n  </div>\n</nav>"
 
 /***/ }),
 
@@ -560,7 +1205,8 @@ module.exports = "<nav class=\"navbar navbar-expand-md navbar-dark bg-dark fixed
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BsNavbarComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__services_auth_service__ = __webpack_require__("./src/app/services/auth.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -571,31 +1217,36 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var BsNavbarComponent = /** @class */ (function () {
-    function BsNavbarComponent() {
-        this.out = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    function BsNavbarComponent(auth) {
+        this.auth = auth;
+        this.out = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["w" /* EventEmitter */]();
     }
+    BsNavbarComponent.prototype.getUserRole = function () {
+        return this.user.role;
+    };
     BsNavbarComponent.prototype.logout = function () {
-        console.log("emitting logout event");
+        this.auth.logout().subscribe(function (res) { console.log(res); });
         this.out.emit();
     };
     BsNavbarComponent.prototype.ngOnInit = function () {
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('user'),
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["E" /* Input */])('user'),
         __metadata("design:type", Object)
     ], BsNavbarComponent.prototype, "user", void 0);
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* Output */])('out'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */])
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Q" /* Output */])('out'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["w" /* EventEmitter */])
     ], BsNavbarComponent.prototype, "out", void 0);
     BsNavbarComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["n" /* Component */])({
             selector: 'bs-navbar',
             template: __webpack_require__("./src/app/bs-navbar/bs-navbar.component.html"),
             styles: [__webpack_require__("./src/app/bs-navbar/bs-navbar.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__services_auth_service__["a" /* AuthService */]])
     ], BsNavbarComponent);
     return BsNavbarComponent;
 }());
@@ -754,7 +1405,7 @@ module.exports = ".odd{\r\n    background-color: #eeeeee;\r\n}"
 /***/ "./src/app/forum/forum.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<ul *ngFor=\"let a of articles; odd as o\" class=\"list-group\">\n  <li class=\"list-group-item pointer\" [class.odd]=\"o\">\n    <a [routerLink]=\"['/article/', a.id]\">\n      {{a.subject}}\n    </a>\n  </li>\n</ul>"
+module.exports = "<a class=\"btn btn-primary\" [routerLink]=\"['/article/post', id]\">Post New Topic</a>\n\n<ul *ngFor=\"let a of articles; odd as o\" class=\"list-group\">\n  <li class=\"list-group-item pointer flex-column\" [routerLink]=\"['/articles', a.id]\" [class.odd]=\"o\">\n    <h5 class=\"mb-1 d-flex justify-content-start\"> {{a.subject}} </h5>\n    <small>{{a.user.username}}</small>\n    <small class=\"float-right d-flex justify-content-end\">{{a.posted | dateDisplay}}</small>\n    <a class=\"d-flex w-100 justify-content-start\">\n      {{a.body | summary }} {{a.id}}\n    </a>\n  </li>\n</ul>"
 
 /***/ }),
 
@@ -779,9 +1430,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var ForumComponent = /** @class */ (function () {
-    function ForumComponent(articleService, route) {
+    function ForumComponent(articleService, route, router) {
         this.articleService = articleService;
         this.route = route;
+        this.router = router;
     }
     ForumComponent.prototype.ngOnInit = function () {
         this.id = +this.route.snapshot.paramMap.get('id');
@@ -793,6 +1445,13 @@ var ForumComponent = /** @class */ (function () {
             _this.articles = r;
         });
     };
+    ForumComponent.prototype.navigateToArticleForm = function () {
+        console.log('navigate function');
+        console.log(this.router.url);
+        // this.router.navigateByUrl(`${this.router.url}/post`);
+        // console.log(this.route)
+        //});
+    };
     ForumComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["n" /* Component */])({
             selector: 'app-forum',
@@ -800,7 +1459,7 @@ var ForumComponent = /** @class */ (function () {
             styles: [__webpack_require__("./src/app/forum/forum.component.css")]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__services_article_service__["a" /* ArticleService */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* ActivatedRoute */]])
+            __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]])
     ], ForumComponent);
     return ForumComponent;
 }());
@@ -1124,6 +1783,135 @@ var QueryInfo = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/moderator/manage-users/manage-users.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/moderator/manage-users/manage-users.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  manage-users works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/moderator/manage-users/manage-users.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ManageUsersComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ManageUsersComponent = /** @class */ (function () {
+    function ManageUsersComponent() {
+    }
+    ManageUsersComponent.prototype.ngOnInit = function () {
+    };
+    ManageUsersComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'app-manage-users',
+            template: __webpack_require__("./src/app/moderator/manage-users/manage-users.component.html"),
+            styles: [__webpack_require__("./src/app/moderator/manage-users/manage-users.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ManageUsersComponent);
+    return ManageUsersComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pipes/date-display.pipe.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DateDisplayPipe; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_moment__ = __webpack_require__("./node_modules/moment/moment.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_moment__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var DateDisplayPipe = /** @class */ (function () {
+    function DateDisplayPipe() {
+    }
+    DateDisplayPipe.prototype.transform = function (date, args) {
+        if (!date)
+            return null;
+        var momentDate = __WEBPACK_IMPORTED_MODULE_1_moment__(date);
+        if (momentDate.diff(__WEBPACK_IMPORTED_MODULE_1_moment__(), 'days') <= 7 && momentDate.diff(__WEBPACK_IMPORTED_MODULE_1_moment__(), 'years') == 0) {
+            return momentDate.fromNow();
+        }
+        else
+            return momentDate.format('LLLL');
+    };
+    DateDisplayPipe = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["U" /* Pipe */])({
+            name: 'dateDisplay'
+        })
+    ], DateDisplayPipe);
+    return DateDisplayPipe;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pipes/summary.pipe.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SummaryPipe; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var SummaryPipe = /** @class */ (function () {
+    function SummaryPipe() {
+    }
+    SummaryPipe.prototype.transform = function (value, limit) {
+        if (!value)
+            return null;
+        var actualLimit = (limit) ? limit : 50;
+        if (value.length > actualLimit) {
+            return value.substr(0, actualLimit) + '...';
+        }
+        else
+            return value;
+    };
+    SummaryPipe = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["U" /* Pipe */])({
+            name: 'summary'
+        })
+    ], SummaryPipe);
+    return SummaryPipe;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/pipes/title-case.pipe.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1158,7 +1946,7 @@ var TitleCasePipe = /** @class */ (function () {
     };
     TitleCasePipe.prototype.isAPreposition = function (word) {
         var prepositions = [
-            'of', 'the', 'on', 'at', 'in', 'with', 'to', 'as', 'or', 'like'
+            'of', 'the', 'on', 'at', 'in', 'with', 'to', 'as', 'or'
         ];
         if (prepositions.includes(word))
             return true;
@@ -1216,7 +2004,7 @@ var ArticleService = /** @class */ (function () {
     };
     ArticleService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["b" /* HttpClient */]])
     ], ArticleService);
     return ArticleService;
 }());
@@ -1230,7 +2018,8 @@ var ArticleService = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1241,16 +2030,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var AuthService = /** @class */ (function () {
-    function AuthService() {
-        this.authEmitter = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    function AuthService(http) {
+        this.http = http;
+        this.logoutUrl = "http://localhost:8080/auth/logout";
+        this.authEmitter = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["w" /* EventEmitter */]();
     }
     AuthService.prototype.loginEvent = function (user) {
         this.authEmitter.emit(user);
     };
+    AuthService.prototype.logout = function () {
+        return this.http.delete(this.logoutUrl);
+    };
     AuthService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [])
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["b" /* HttpClient */]])
     ], AuthService);
     return AuthService;
 }());
@@ -1288,13 +2083,16 @@ var CommentService = /** @class */ (function () {
     CommentService.prototype.getByArticle = function (id) {
         return this.http.get(this.url + "/" + id);
     };
+    CommentService.prototype.getByUser = function (id) {
+        return this.http.get(this.url + "/user/" + id);
+    };
     CommentService.prototype.post = function (comment) {
         comment.authorId = this.storage.getUser().id;
         return this.http.post(this.url, comment);
     };
     CommentService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_2__storage_service__["a" /* StorageService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["b" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_2__storage_service__["a" /* StorageService */]])
     ], CommentService);
     return CommentService;
 }());
@@ -1340,12 +2138,13 @@ var ForumService = /** @class */ (function () {
         this.url = "http://localhost:8080/forums";
     }
     ForumService.prototype.setPageParams = function (info) {
-        var Params = new __WEBPACK_IMPORTED_MODULE_0__angular_common_http__["c" /* HttpParams */]();
+        var Params = new __WEBPACK_IMPORTED_MODULE_0__angular_common_http__["d" /* HttpParams */]();
         Params = Params.append('page', String(info.page));
         Params = Params.append('size', String(info.size));
         return Params;
     };
     ForumService.prototype.get = function (id) {
+        return this.http.get(this.url + "/" + id);
     };
     ForumService.prototype.getAll = function (queryInfo) {
         var Params = this.setPageParams(queryInfo);
@@ -1365,7 +2164,7 @@ var ForumService = /** @class */ (function () {
     };
     ForumService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["b" /* HttpClient */]])
     ], ForumService);
     return ForumService;
 }());
@@ -1443,9 +2242,10 @@ var UserService = /** @class */ (function () {
         this.storage = storage;
         this.auth = auth;
         this.url = "http://localhost:8080/users";
+        this.authUrl = "http://localhost:8080/auth/";
     }
     UserService.prototype.login = function (user) {
-        return this.http.get(this.url + "/login/" + user.email + "/" + user.password);
+        return this.http.get(this.authUrl + "login/" + user.email + "/" + user.password);
     };
     UserService.prototype.getUserById = function (id) {
         return this.http.get(this.url + "/" + id);
@@ -1459,65 +2259,11 @@ var UserService = /** @class */ (function () {
     };
     UserService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["b" /* HttpClient */],
             __WEBPACK_IMPORTED_MODULE_3__storage_service__["a" /* StorageService */],
             __WEBPACK_IMPORTED_MODULE_0__auth_service__["a" /* AuthService */]])
     ], UserService);
     return UserService;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/zippy/zippy.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/zippy/zippy.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"zippy\">\n  <div [class.expanded]=\"isExpanded\" (click)=\"isExpanded=!isExpanded\" class=\"zippy-heading\">\n    {{title}}\n    <span class=\"glyphicon\" [ngClass]=\"{\n    'glyphicon-chevron-up ' :  isExpanded,\n    ' glyphicon-chevron-down' : !isExpanded\n   }\"></span>\n  </div>\n  <div *ngIf=\"isExpanded\" class=\"zippy-body\">\n    <ng-content></ng-content>\n  </div>\n</div>"
-
-/***/ }),
-
-/***/ "./src/app/zippy/zippy.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ZippyComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var ZippyComponent = /** @class */ (function () {
-    function ZippyComponent() {
-    }
-    ZippyComponent.prototype.ngOnInit = function () {
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('title'),
-        __metadata("design:type", String)
-    ], ZippyComponent.prototype, "title", void 0);
-    ZippyComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'zippy',
-            template: __webpack_require__("./src/app/zippy/zippy.component.html"),
-            styles: [__webpack_require__("./src/app/zippy/zippy.component.css")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], ZippyComponent);
-    return ZippyComponent;
 }());
 
 

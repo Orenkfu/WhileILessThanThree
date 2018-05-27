@@ -1,11 +1,14 @@
 package main.entities;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 import main.utils.Postable;
 
@@ -18,6 +21,7 @@ public class Comment implements Postable, Serializable {
 	private boolean isFirst;
 	private Long authorId;
 	private Long articleId;
+	private Date posted;
 
 	@Id
 	@GeneratedValue
@@ -78,6 +82,15 @@ public class Comment implements Postable, Serializable {
 
 	public void setAuthorId(Long authorId) {
 		this.authorId = authorId;
+	}
+
+	@Temporal(TemporalType.TIMESTAMP)
+	public Date getPosted() {
+		return posted;
+	}
+
+	public void setPosted(Date posted) {
+		this.posted = posted;
 	}
 
 	@Override

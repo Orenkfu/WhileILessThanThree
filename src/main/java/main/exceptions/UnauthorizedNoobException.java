@@ -25,4 +25,8 @@ public class UnauthorizedNoobException extends GeneralNoobException {
 		super(msg);
 	}
 
+	public UnauthorizedNoobException(ExcMsg msg, Throwable cause) {
+		super(msg, cause);
+	}
+
 }
